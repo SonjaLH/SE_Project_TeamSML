@@ -1,8 +1,8 @@
 # Car Rental System
 ## Group Division (Phase I)
-Team Name: SM Team
-Team Leader: Sonja Celmeta 
-Team Members & GitHub Usernames: 
+### Team Name: SM Team
+### Team Leader: Sonja Celmeta 
+### Team Members & GitHub Usernames: 
 1. Sonja Celmeta - SonjaLH
 2. Marbi Bombaj - marbibombaj
 
