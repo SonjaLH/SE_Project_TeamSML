@@ -5,11 +5,12 @@
 ### Team Members & GitHub Usernames: 
 1. Sonja Celmeta - SonjaLH
 2. Marbi Bombaj - marbibombaj
+3. Lutjan Allko - P9Lajbrixhi
 
 Email: 
 1. scelmeta21@epoka.edu.al
 2. mbombaj21@epoka.edu.al
-
+3. lallko21@epoka.edu.al
 
 
 # Project : Car Rental System
@@ -75,16 +76,18 @@ Main Objectives:
 
 | Team member| Roles| Tasks |
 | ----| ----|---------------------------|
-| Sonja Celmeta & Marbi Bombaj | - | Create business requirements and feasibility |
+| Marbi Bombaj & Lutjan Allko | - | Create business requirements and feasibility |
 | Sonja Celmeta| Team Leader | Create database schema |
-| Sonja Celmeta| Team Leader | Create repository and initial project structure
-| Sonja Celmeta| Team Leader | Create register/login page|
-| Sonja Celmeta| Team Leader | Create authentification and authorization |
-| Sonja Celmeta| Team Leader | Create admin page|
-| Marbi Bombaj| Developer | Create landing page|
-| Marbi Bombaj| Developer | Create about page |
-| Marbi Bombaj| Developer | Create contact page|
-| Marbi Bombaj| Developer | Create booking process|
-| Marbi Bombaj| Developer | Create user page |
+| Sonja Celmeta| Team Leader | Create repository and initial project structure |
+| Sonja Celmeta| Team Leader | Create register/login page |
+| Sonja Celmeta| Team Leader | Create admin page |
+| Sonja Celmeta| Team Leader | Project Synchronisation |
+| Marbi Bombaj| Developer | Create Landing page |
+| Marbi Bombaj| Developer | Create User page |
+| Marbi Bombaj| Developer | Create Contact page |
+| Marbi Bombaj| Developer | Create Booking process |
+| Lutjan Allko | Developer | Create authentification and authorization |
+| Lutjan Allko | Developer | Create About page |
+
 
 ### Submission Deadline: 04.03.2023, 23:59 hours.
