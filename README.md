@@ -433,8 +433,21 @@ ENTITIES ATTRIBUTES :
 The car rental system is built with a combination of current and reliable technologies. The backend logic is written in PHP, a popular server-side scripting language known for its adaptability and interoperability with a variety of operating systems. The frontend, or user interface, is developed with HTML and CSS, the standard technology for structuring and decorating web pages. To improve the user interface and make it responsive, the Bootstrap framework is used. Bootstrap has pre-designed components, which makes the development process easier. A MySQL database stores the system's data, such as user information and automobile rental details. MySQL is a dependable and efficient open-source relational database management system that is commonly used for online applications. These technologies provide a comprehensive, efficient, and user-friendly car rental system.
 
     User Interface Design:
-Showcase wireframes, mockups, or describe the user interface:
-Provide a visual representation of how users will interact with the system.
+
+1. An idea how our Landing Page will look:
+
+<p align="center">
+    <img src="src\img\mockups\Rent.png" alt="Car Rental System Class Diagram">
+    <br />
+</p>
+
+2. Also the login interface:
+
+<p align="center">
+    <img src="src\img\mockups\Capturelogin.PNG" alt="Car Rental System Class Diagram">
+    <br />
+</p>
+
 
     Security Measures:
 
