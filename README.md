@@ -222,7 +222,7 @@ ACCEPTANCE CRITERIA:
 >	Portability: The system should work across different platforms and devices, including desktop and mobile.
 
 
-b. Acceptance Criteria:
+ACCEPTANCE CRITERIA
 
 | Roles | Tasks | Done |
 | ---------------|---------------------------|---|
@@ -309,14 +309,127 @@ b. Acceptance Criteria:
 
 
     Database Model
-Detail the database model:
-Include information on tables, relationships, constraints, and any other relevant details.
+
+In the Car Rental System, we have the following entities:
+
+- Costumer
+- Car
+- CarReview
+- CarIMG
+- Owner
+- Admin 
+- Rental
+- Payment
+
+Their relationships are stated below:
+
+- The admin can encode 1 or more customer information (1 to many relationship)
+
+- The admin can encode 1 or more Car Owner information (1 to many relationship)
+
+- The Car Owner can register 1 or more car information (1 to many relationship)
+
+- The Car has multiple images (1 to many relationship)
+
+- The Customer can only rent 1 car at a time or per transaction (1 to 1 relationship)
+
+- The Customer can comment and review car information (1 to many relationship)
+
+- The admin can process the payments (1 to many relationship)
+
+ENTITIES ATTRIBUTES : 
+
+> Admin Entity has the following attributes:
+
+- AdminID – Primary Key
+- Name
+- Contact
+- Address
+- Username
+- Password
+
+> Rental Entity has the following attributes:
+
+- RentalID – Primary Key 
+- RentalDate
+- RentalTime
+- OwnerID – Foreign Key
+- CarID – Foreign Key
+- CustomerID – Foreign Key
+
+> Payment Entity has the following attributes:
+
+- PaymentID – Primary Key 
+- PaymentAmount
+- PaymentDate
+- AdminID – Foreign Key
+- RentalID - Foreign Key
+
+> Owner Entity has the following attributes:
+
+- OwnerID – Primary Key
+- OwnerName
+- Address
+- Contact
+- Username
+- Password
+- AdminID – Foreign Key
+
+> Car Entity has the following attributes:
+
+- CarID – Primary Key 
+- CarName
+- Description
+- CarYearModel
+- CarBrand
+- Color
+- PlateNumber
+- Rate
+- Status
+- OwnerID – Foreign Key
+
+> CarIMG Entity has the following attributes:
+
+- ImageID – Primary Key
+- ImageDescription
+- CarID – Foreign Key
+
+> CarReview has the following attributes:
+
+- ReviewID - Primary Key
+- ReviewScore
+- Date
+- Review
+- CostumerID - Foreign Key
+- CarID - Foreign Key
+
+> Customer Entity has the following attributes:
+
+- CustomerID – Primary Key 
+- CustomerName
+- Address
+- Contact
+- Username
+- Password
+- AccountStatus
+- AdminID – Foreign Key
 
 
 
+<p align="center">
+    <img src="src\img\mockups\dberdschema.PNG" alt="Car Rental System Class Diagram">
+    <br />
+    ERD Diagram & Relationships for Car Rental System
+</p>
+
+<p align="center">
+    <img src="src\img\mockups\dbtable.PNG" alt="Car Rental System Class Diagram">
+    <br />
+    Tables Schema for Car Rental System
+</p>
 
 
-    Technologies Used:
+    Technologies Used
 The car rental system is built with a combination of current and reliable technologies. The backend logic is written in PHP, a popular server-side scripting language known for its adaptability and interoperability with a variety of operating systems. The frontend, or user interface, is developed with HTML and CSS, the standard technology for structuring and decorating web pages. To improve the user interface and make it responsive, the Bootstrap framework is used. Bootstrap has pre-designed components, which makes the development process easier. A MySQL database stores the system's data, such as user information and automobile rental details. MySQL is a dependable and efficient open-source relational database management system that is commonly used for online applications. These technologies provide a comprehensive, efficient, and user-friendly car rental system.
 
     User Interface Design:
