@@ -458,3 +458,45 @@ The following security measures and protocols will be implemented:
 * Authentication -> This is the process of authenticating a user's identification. It usually consists of a login and password, but it can also contain other techniques like two-factor authentication (2FA) for extra protection.
 
 * Role Access Management -> This entails creating roles (such as administrator, staff, and client) and providing precise permissions to each one. For example, an administrator may have complete access to the system, whilst a client can only view and change their own booking information. This helps to restrict access to sensitive sections of the system to those who require it.
+
+
+## Software Design and Modeling (Phase III)
+
+### Software Architecture
+
+System Architecture:
+
+Component Diagram:
+
+### Detailed Design
+
+1. Class Diagram:
+
+2. Sequence Diagrams:
+
+3. Database Design:
+
+### Modeling
+
+1. Use Case Diagram:
+
+<p align="center">
+    <img src="src\img\mockups\UseCaseDiagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    Use Case Diagram for Car Rental System
+</p>
+
+
+2. Activity Diagrams:
+
+<p align="center">
+    <img src="src\img\mockups\Activity Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    Activity Diagram for Pick Up 
+</p>
+
+<p align="center">
+    <img src="src\img\mockups\Activity Diagram2.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    Activity Diagram 2
+</p>
