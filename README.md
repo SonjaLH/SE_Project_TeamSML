@@ -470,24 +470,24 @@ Component Diagram:
 
 ### Detailed Design
 
-1. Class Diagram:
+- Class Diagram:
 
-2. Sequence Diagrams:
+- Sequence Diagrams:
 
-3. Database Design:
+- Database Design:
 
 ### Modeling
 
-1. Use Case Diagram:
+- Use Case Diagram:
 
 <p align="center">
-    <img src="src\img\mockups\UseCaseDiagram.drawio.png" alt="Car Rental System Class Diagram">
+    <img src="src\img\mockups\UseCaseDiagram100.drawio.png" alt="Car Rental System Class Diagram">
     <br />
     Use Case Diagram for Car Rental System
 </p>
 
 
-2. Activity Diagrams:
+- Activity Diagrams:
 
 <p align="center">
     <img src="src\img\mockups\Activity Diagram.drawio.png" alt="Car Rental System Class Diagram">
@@ -496,7 +496,7 @@ Component Diagram:
 </p>
 
 <p align="center">
-    <img src="src\img\mockups\Activity Diagram2.drawio.png" alt="Car Rental System Class Diagram">
+    <img src="src\img\mockups\Activity Diagram100.drawio.png" alt="Car Rental System Class Diagram">
     <br />
     Activity Diagram 2
 </p>
