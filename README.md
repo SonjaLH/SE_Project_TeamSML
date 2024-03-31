@@ -637,3 +637,11 @@ ENTITIES ATTRIBUTES :
     <br />
     Activity Diagram 2
 </p>
+
+### State Diagram:
+
+<p align="center">
+    <img src="src\img\mockups\State Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    State Diagram
+</p>
