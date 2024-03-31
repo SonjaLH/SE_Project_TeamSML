@@ -462,23 +462,160 @@ The following security measures and protocols will be implemented:
 
 ## Software Design and Modeling (Phase III)
 
-### Software Architecture
+## Software Architecture
 
-System Architecture:
+System Architecture
 
-Component Diagram:
+Component Diagram
 
-### Detailed Design
+## Detailed Design
 
-- Class Diagram:
+### Class Diagram
 
-- Sequence Diagrams:
+The main classes for our system will be:
 
-- Database Design:
+1. Car - Every car has a personal CarID. Cars available will be: small, medium, SUV and luxury.
+2. User - We will have two types of users which are admin and costumer.
+3. CarReservation - Here we will manage the car reservations.
+4. CarReviewService - The reviews costumers will leave.
+5. RentalBusiness - The different rental businesses on the system.
+6. Notification - The notifications sent to costumers.
+7. Payment - Different fees added to the bill.
 
-### Modeling
+<p align="center">
+    <img src="src\img\mockups\Class Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    Class Diagram for Car Rental System
+</p>
 
-- Use Case Diagram:
+
+### Sequence Diagrams
+
+
+
+
+
+## Database Design
+
+In the Car Rental System, we have the following entities:
+
+1. Costumer
+2. Car
+3. CarReview
+4. CarIMG
+5. Owner
+6. Admin 
+7. Rental
+8. Payment
+
+Their relationships are stated below:
+
+- The admin can encode 1 or more customer information (1 to many relationship)
+
+- The admin can encode 1 or more Car Owner information (1 to many relationship)
+
+- The Car Owner can register 1 or more car information (1 to many relationship)
+
+- The Car has multiple images (1 to many relationship)
+
+- The Customer can only rent 1 car at a time or per transaction (1 to 1 relationship)
+
+- The Customer can comment and review car information (1 to many relationship)
+
+- The admin can process the payments (1 to many relationship)
+
+ENTITIES ATTRIBUTES : 
+
+> Admin Entity has the following attributes:
+
+- AdminID – Primary Key
+- Name
+- Contact
+- Address
+- Username
+- Password
+
+> Rental Entity has the following attributes:
+
+- RentalID – Primary Key 
+- RentalDate
+- RentalTime
+- OwnerID – Foreign Key
+- CarID – Foreign Key
+- CustomerID – Foreign Key
+
+> Payment Entity has the following attributes:
+
+- PaymentID – Primary Key 
+- PaymentAmount
+- PaymentDate
+- AdminID – Foreign Key
+- RentalID - Foreign Key
+
+> Owner Entity has the following attributes:
+
+- OwnerID – Primary Key
+- OwnerName
+- Address
+- Contact
+- Username
+- Password
+- AdminID – Foreign Key
+
+> Car Entity has the following attributes:
+
+- CarID – Primary Key 
+- CarName
+- Description
+- CarYearModel
+- CarBrand
+- Color
+- PlateNumber
+- Rate
+- Status
+- OwnerID – Foreign Key
+
+> CarIMG Entity has the following attributes:
+
+- ImageID – Primary Key
+- ImageDescription
+- CarID – Foreign Key
+
+> CarReview has the following attributes:
+
+- ReviewID - Primary Key
+- ReviewScore
+- Date
+- Review
+- CostumerID - Foreign Key
+- CarID - Foreign Key
+
+> Customer Entity has the following attributes:
+
+- CustomerID – Primary Key 
+- CustomerName
+- Address
+- Contact
+- Username
+- Password
+- AccountStatus
+- AdminID – Foreign Key
+
+<p align="center">
+    <img src="src\img\mockups\dberdschema.PNG" alt="Car Rental System Class Diagram">
+    <br />
+    ERD Diagram & Relationships for Car Rental System
+</p>
+
+<p align="center">
+    <img src="src\img\mockups\dbtable.PNG" alt="Car Rental System Class Diagram">
+    <br />
+    Tables Schema for Car Rental System
+</p>
+
+## Modeling
+
+### Use Case Diagram:
 
 <p align="center">
     <img src="src\img\mockups\UseCaseDiagram100.drawio.png" alt="Car Rental System Class Diagram">
@@ -487,7 +624,7 @@ Component Diagram:
 </p>
 
 
-- Activity Diagrams:
+### Activity Diagrams:
 
 <p align="center">
     <img src="src\img\mockups\Activity Diagram.drawio.png" alt="Car Rental System Class Diagram">
