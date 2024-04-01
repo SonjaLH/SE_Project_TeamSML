@@ -482,6 +482,12 @@ We will implement a notification system to keep users informed about their reser
 
 Component Diagram
 
+
+<p align="center">
+    <img src="src\img\mockups\Component Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+</p>
+
 ## Detailed Design
 
 ### Class Diagram
