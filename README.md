@@ -503,10 +503,10 @@ The main classes for our system will be:
 </p>
 
 
-### Sequence Diagrams
+### Sequence Diagram
 
 <p align="center">
-    <img src="src\img\mockups\Sequence Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <img src="src\img\mockups\Sequence Diagram1.drawio.png" alt="Car Rental System Class Diagram">
     <br />
     Sequence Diagram for Car Rental System
 </p>
