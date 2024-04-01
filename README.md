@@ -466,6 +466,20 @@ The following security measures and protocols will be implemented:
 
 System Architecture
 
+We will design the car rental system to work seamlessly by integrating various components to provide a user-friendly experience. Here's how different parts of the system will interact with each other, in order to make renting cars easy and efficient:
+ - User Interface (UI):
+ We will create a user-friendly interface where customers can easily search for available cars, select rental dates, and make reservations. Users will also view detailed information about the cars, such as model, features, and pricing.
+- Database Management:	Our database system will store essential information about available cars, customer details, reservations, rental history, etc. This database will allow efficient data retrieval and storage to support various functions of the system.
+- Backend Services:
+The backend services that we’re going to develop will handle the core business logic of the system, such as processing reservations, calculating rental fees, and more. 
+- Secure Payment Gateway:
+We will have a secure payment gateway to facilitate online payments for reservations. This ensures that transactions are processed smoothly and securely, providing users with a seamless payment experience.
+- Admin Panel:
+For system management, we will develop an intuitive admin panel that’s going to allow admin to manage the system efficiently. Admins can add new cars, update pricing, handle customer support, generate reports, and access analytics to make informed decisions.
+- Notification System:
+We will implement a notification system to keep users informed about their reservations, payment status, and any updates related to their rental. This ensures that users are always updated on the status of their bookings.
+
+
 Component Diagram
 
 ## Detailed Design
@@ -491,7 +505,11 @@ The main classes for our system will be:
 
 ### Sequence Diagrams
 
-
+<p align="center">
+    <img src="src\img\mockups\Sequence Diagram.drawio.png" alt="Car Rental System Class Diagram">
+    <br />
+    Sequence Diagram for Car Rental System
+</p>
 
 
 
