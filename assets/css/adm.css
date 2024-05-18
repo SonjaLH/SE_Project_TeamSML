@@ -1,0 +1,146 @@
+.dashboard-items {
+
+    border: 2px solid #c9cbce9f;
+    border-radius: 7px;
+    color: var(--primarycolor);
+    /*background-color: #d8ebfa25 ;*/
+    /*box-shadow: 0 3px 5px 0 rgba(95, 95, 97, 0.3);*/
+}
+
+
+.h1-dashboard {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.h3-dashboard {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529e3;
+}
+
+.dashboard-icons {
+    background-color: rgba(184, 184, 184, 0.247);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    margin-left: 40px;
+    margin-right: 0px;
+
+}
+
+.dashboard-icons-setting {
+    background-color: rgba(184, 184, 184, 0.247);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 20px;
+
+}
+
+
+.search-div {
+    position: relative;
+    margin-top: 100px;
+}
+
+.header-searchbar {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.705);
+    border: 0.5px solid rgba(190, 190, 190, 0.884);
+
+
+}
+
+.abc {
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.table-headin {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 3px solid var(--primarycolor);
+}
+.sub-table {
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+
+    padding: 20px;
+
+}
+
+
+.overlay {
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    opacity: 100%;
+    visibility: visible;
+
+
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.popup {
+    height: auto;
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    max-height: 500px; /* Adjust the maximum height as needed */
+  overflow: auto;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+  
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: var(--primarycolorhover);
+}
+
+.popup .content {
+    max-height: 30%;
+
+    overflow: visible;
+}
+
