@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BookingServiceTest" file="C:\xampp\htdocs\crs\tests\bookingServiceTest.php" tests="4" assertions="2" errors="2" warnings="0" failures="2" skipped="0" time="0.062159">
+    <testcase name="testBookCar" class="BookingServiceTest" classname="BookingServiceTest" file="C:\xampp\htdocs\crs\tests\bookingServiceTest.php" line="19" assertions="1" time="0.045152">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">BookingServiceTest::testBookCar
+Failed asserting that actual size 0 matches expected size 1.
+
+C:\xampp\htdocs\crs\tests\bookingServiceTest.php:32</failure>
+    </testcase>
+    <testcase name="testGetAllBookings" class="BookingServiceTest" classname="BookingServiceTest" file="C:\xampp\htdocs\crs\tests\bookingServiceTest.php" line="35" assertions="1" time="0.003903">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">BookingServiceTest::testGetAllBookings
+Failed asserting that an array is not empty.
+
+C:\xampp\htdocs\crs\tests\bookingServiceTest.php:40</failure>
+    </testcase>
+    <testcase name="testUpdateBooking" class="BookingServiceTest" classname="BookingServiceTest" file="C:\xampp\htdocs\crs\tests\bookingServiceTest.php" line="43" assertions="0" time="0.008525">
+      <error type="PHPUnit\Framework\Error\Warning">BookingServiceTest::testUpdateBooking
+Trying to access array offset on value of type bool
+
+C:\xampp\htdocs\crs\tests\bookingServiceTest.php:58</error>
+    </testcase>
+    <testcase name="testDeleteBooking" class="BookingServiceTest" classname="BookingServiceTest" file="C:\xampp\htdocs\crs\tests\bookingServiceTest.php" line="67" assertions="0" time="0.004580">
+      <error type="PHPUnit\Framework\Error\Warning">BookingServiceTest::testDeleteBooking
+Trying to access array offset on value of type bool
+
+C:\xampp\htdocs\crs\tests\bookingServiceTest.php:79</error>
+    </testcase>
+  </testsuite>
+</testsuites>
