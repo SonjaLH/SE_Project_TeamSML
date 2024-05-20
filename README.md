@@ -669,3 +669,53 @@ ENTITIES ATTRIBUTES :
     <br />
     State Diagram
 </p>
+
+## Testing (Phase IV)
+
+1. Introduction to Testing:
+
+Software testing is the process of determining and validating that a software product or application performs as intended. Here are some important points about software testing.
+
+Purpose: The primary goal of software testing is to detect faults, defects, or missing requirements, rather than real requirements.
+
+Types of Testing: There are various types of software testing, each with its own purpose: Acceptance testing includes code review, integration testing, unit testing, functional testing, performance testing, regression testing, security testing, and usability testing.
+
+2. Purpose of Testing:
+
+- Verifying software components:
+Unit testing involves verifying individual software units.
+Integration testing ensures that components interact seamlessly.
+Functional testing involves evaluating specific functionality.
+Regression testing involves checking for modifications to existing functionality.
+Acceptance testing involves verifying business needs.
+
+-Identifying problems early in development prevents them from entering production.
+The key benefits are early risk mitigation and iterative improvement.
+
+3. Focus on Testing a Single Component:
+BookingServiceTest.php
+The BookingService class is chosen for testing because:
+Role: It's responsible for managing booking-related operations, critical for the functionality of the car rental system.
+Complexity: It may involve interactions with the database to create, retrieve, and update booking information, potentially dealing with date validations, availability checks, and user authentication.
+Impact: Errors in booking management functionalities can disrupt the rental process and lead to customer dissatisfaction. Thorough testing of the BookingService is essential to ensure reliability. 
+
+
+4. Preparing Test Cases:
+Test cases should cover various scenarios, including:
+Normal Inputs: Valid scenarios such as creating a booking with correct parameters, retrieving booking details, and updating booking information with valid data.
+Edge Cases: Boundary conditions like creating a booking with minimum and maximum rental durations, attempting to retrieve non-existent booking details, and updating booking information with extreme values.
+Invalid Inputs: Handling cases where incorrect parameters are provided, such as creating a booking with invalid car or user IDs, attempting to retrieve booking details with an invalid booking ID, or updating booking information with incorrect data. 
+
+5. Choosing Testing Frameworks:
+Since we're working with PHP, PHPUnit remains the recommended testing framework for unit testing. 
+
+6. Writing Test Code:
+
+The tests are in the test file.
+
+8. Test Coverage (The importance of achieving high test coverage):
+
+We strive for high test coverage to ensure thorough testing of the BookingService class. 
+We aim to cover critical functionalities like creating bookings, retrieving booking details, and updating booking information. 
+By using PHPUnit's code coverage reports to measure test coverage and identify areas for improvement we aim for comprehensive coverage to minimize the risk of undetected bugs in production. 
+
